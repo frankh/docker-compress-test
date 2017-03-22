@@ -1,3 +1,5 @@
-FROM debian:stretch-slim
+What is this?
+-------------
 
-RUN dd if=/dev/zero of=/BIGFILE bs=4k count=100k
+A way to easily reproduce docker not compressing pushed images
+
